@@ -12,6 +12,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react()],
+  base: "/Praedico",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
